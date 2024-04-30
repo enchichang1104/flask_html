@@ -1,0 +1,53 @@
+.home.root {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  background: var(--src) center center/100% 100% no-repeat;
+  overflow: hidden;
+}
+.home .content_box {
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+  height: 100vh;
+  background-color: rgba(36, 50, 87, 0.988);
+}
+.home .hero_title {
+  /* margin: 237px 0px 486px 12.66%; */
+
+  width: 400px;
+  margin-left: 80px;
+  margin-bottom: 100px;
+  margin-top: 180px;
+  font: 400 50px/1.22 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+
+.footer {
+  padding: 3rem 0;
+  background-color: rgba(36, 50, 87, 0.988);
+}
+
+.foot-div {
+  text-align: center;
+  color: aliceblue;
+  
+}
+
+.headroom {
+  z-index: 10000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+  transform: translateY(0%);
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
+}

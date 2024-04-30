@@ -1,0 +1,83 @@
+.outline.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1eaea;
+  overflow: hidden;
+}
+
+.outline .flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 107px 0px;
+  margin: 166px auto 323px;
+  width: 82.58%;
+}
+.outline .flex_col1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 13px 0px;
+  width: 36.23%;
+}
+.outline .hero_title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 400 96px/1.32 "Jacques Francois Shadow", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.outline .title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0px 1px;
+  font: 400 32px/1.31 "Jacques Francois", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.outline .flex_col2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 124px 0px;
+  width: 100%;
+}
+.outline .flex_row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+}
+.outline .content_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 324px;
+  height: 324px;
+  padding:30px;
+  min-width: 0px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 0.247);
+
+  flex-basis: calc(33.33% - 20px); /* 設定每個 content_box 的基本寬度為三分之一，並考慮間距 */
+  margin-bottom: 50px; /* 設定下方間距 */
+}
+
+.outline .image {
+  position: relative;
+  margin: 206px 26px 25px auto;
+  width: 88px;
+  height: 88px;
+}
+
+.outline .flex_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+

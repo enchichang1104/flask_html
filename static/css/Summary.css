@@ -1,0 +1,96 @@
+.summary.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1eaea;
+  overflow: hidden;
+}
+.summary .flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 82px 0px;
+  margin: 166px auto 138px;
+  width: 83.75%;
+}
+.summary .flex_col1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 131px 0px;
+}
+.summary .flex_col2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 61px 0px;
+}
+.summary .flex_row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  width: 73.13%;
+}
+.summary .hero_title1 {
+  position: relative;
+  display: flex;
+  margin-top: 280px;
+  margin-bottom: 10px;
+  min-width: 0px;
+  font: 700 48px/1.25 "Libre Bodoni", Helvetica, Arial, serif;
+  color: #202c4c;
+}
+.summary .flex_col3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px 0px;
+  margin: 0px 0px 224px;
+  width: 527px;
+  min-width: 0px;
+}
+.summary .hero_title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 400 96px/1.32 "Jacques Francois Shadow", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.summary .title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 400 32px/1.31 "Jacques Francois", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.summary .summary-block {
+  position: relative;
+  min-height: 200px;
+  background-color: white;
+  border-radius: 16px 16px 16px 16px;
+  box-shadow: 7px 7px 4px 0px rgba(32, 44, 76, 0.349);
+  display: none;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding: 60px;
+  align-items: center;
+}
+.summary .hero_title11 {
+  position: relative;
+  font: 700 48px/1.25 "Libre Bodoni", Helvetica, Arial, serif;
+  color: #202c4c;
+}
+.summary .rect1 {
+  position: relative;
+  min-height: 400px;
+  background-color: #202c4c;
+  border-radius: 16px 16px 16px 16px;
+}
+
+.summary .rect1 img {
+  padding: 80px;
+}

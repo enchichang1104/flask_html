@@ -1,0 +1,274 @@
+.untitled-page.root {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1eaea;
+  overflow: hidden;
+}
+.untitled-page .flex_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120px 0px;
+  margin: 136px auto 201px;
+  width: 87.5%;
+  max-width: 1120px;
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_col {
+    margin: 136px auto 150px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_col {
+    gap: 80px 0px;
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_col {
+    gap: 50px 0px;
+    margin: 50px auto;
+  }
+}
+.untitled-page .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 49px 0px;
+  width: 90.63%;
+}
+.untitled-page .hero_title {
+  display: flex;
+  justify-content: center;
+  font: 400 48px/1.31 "Jacques Francois", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .untitled-page .hero_title {
+    align-items: flex-start;
+    font-size: 44px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .hero_title {
+    font-size: 36px;
+  }
+}
+.untitled-page .line {
+  width: 100%;
+  height: 2px;
+  min-height: 2px;
+  background-color: black;
+  outline: 4px solid black;
+  outline-offset: -2px;
+}
+.untitled-page .flex_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_row {
+    flex-direction: column;
+    gap: 30px 10px;
+  }
+}
+.untitled-page .content_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  min-width: 0px;
+  background-color: #363b67;
+  border-radius: 56px 56px 56px 56px;
+  box-shadow: 4px 4px 9px 0px rgba(9, 8, 8, 0.717);
+}
+@media (max-width: 991px) {
+  .untitled-page .content_box {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+  }
+}
+.untitled-page .rect1 {
+  position: absolute;
+  bottom: 66px;
+  left: 47px;
+  width: 167px;
+  height: 39px;
+  background-color: #d9d9d9;
+  border-radius: 19.5px 19.5px 19.5px 19.5px;
+}
+.untitled-page .subtitle {
+  position: absolute;
+  bottom: 65px;
+  left: 80px;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  font: 400 20px/2 "Kadwa", Helvetica, Arial, serif;
+  color: #363b67;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .untitled-page .subtitle {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .subtitle {
+    font-size: 16px;
+  }
+}
+.untitled-page .flex_col2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px 0px;
+  margin: 90px 0px 191px 14.33%;
+  width: 161px;
+  max-width: 85%;
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_col2 {
+    margin: 90px 0px 150px 14.33%;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_col2 {
+    margin: 80px 0px 80px 14.33%;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_col2 {
+    margin: 50px 0px 50px 14.33%;
+  }
+}
+.untitled-page .hero_title1 {
+  font: 400 40px/1.32 "Jacques Francois Shadow", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page .hero_title1 {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .hero_title1 {
+    font-size: 32px;
+  }
+}
+.untitled-page .subtitle1 {
+  font: 400 23px/2 "Kadwa", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page .subtitle1 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .subtitle1 {
+    font-size: 18px;
+  }
+}
+.untitled-page .flex_col3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 35px 0px;
+  margin: 90px auto 191px;
+  width: 229.9921875px;
+  max-width: 85%;
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_col3 {
+    margin: 90px auto 150px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_col3 {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_col3 {
+    margin: 50px auto;
+  }
+}
+.untitled-page .hero_title11 {
+  margin: 0px 40px 0px 0px;
+  font: 400 40px/1.32 "Jacques Francois Shadow", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page .hero_title11 {
+    align-items: flex-start;
+    margin: 0px 32px 0px 0px;
+    font-size: 36px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .hero_title11 {
+    margin: 0px 16px 0px 0px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .hero_title11 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .hero_title11 {
+    margin: 0px 8px 0px 0px;
+  }
+}
+.untitled-page .flex_col4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px 0px;
+  margin: 90px 0px 191px 14.33%;
+  width: 184px;
+  max-width: 85%;
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_col4 {
+    margin: 90px 0px 150px 14.33%;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_col4 {
+    margin: 80px 0px 80px 14.33%;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_col4 {
+    margin: 50px 0px 50px 14.33%;
+  }
+}
+.untitled-page .hero_title12 {
+  width: 100%;
+  font: 400 40px/1.32 "Jacques Francois Shadow", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page .hero_title12 {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .hero_title12 {
+    font-size: 32px;
+  }
+}

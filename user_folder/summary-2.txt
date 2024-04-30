@@ -1,0 +1,20 @@
+1. Handshake is a term used in computer networking to refer to the exchange of information between two devices to establish a connection.
+2. NSS stands for Network Segment Size and is a term used in Handshake to refer to the maximum amount of data that can be sent in one segment.
+3. NTU stands for Network Transmission Unit and is the maximum amount of data that can be transmitted in one transmission.
+4. NSS and NTU are important factors to consider when transferring data to or from a buffer, as they determine the limitations on the amount of data that can be transferred.
+5. NSS is limited by the maximum size of a segment, while NTU is limited by the maximum transmission unit.
+6. Local hosts must determine their maximum link layer protocol length before setting the NSS.
+7. Ethernet and PPP are examples of communication protocols with set NTU values.
+8. The early NTU value for Ethernet was 1500 bits, with 40 bits allocated for TCP/IP data, leaving 1460 bits for NSS.
+9. These values have not changed significantly since their initial implementation.
+10. NSS and NTU are important considerations for efficient and effective data transfer.
+11. Handshake is a crucial aspect of establishing connection in computer networking.
+12. NSS is a term used to define the maximum size of a data segment in Handshake.
+13. NTU refers to the maximum amount of data that can be transmitted in one transmission.
+14. Both NSS and NTU are important factors to consider when transferring data to or from a buffer.
+15. The maximum size of a segment is limited by NSS in Handshake.
+16. The maximum transmission unit is limited by NTU.
+17. Local hosts must determine their maximum link layer protocol length before setting NSS.
+18. Ethernet and PPP are examples of communication protocols with set NTU values.
+19. Early NTU value for Ethernet was 1500 bits.
+20. TCP/IP data is allocated 40 bits in the Ethernet NTU value, leaving 1460 bits for NSS.

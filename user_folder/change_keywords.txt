@@ -1,0 +1,9 @@
+Handshake: A process of exchanging information between two devices in computer networking in order to establish a connection.
+NSS: Abbreviation for Network Segment Size, which refers to the maximum amount of data that can be sent in one segment during a handshake.
+NTU: Short for Network Transmission Unit, which is the maximum amount of data that can be transmitted in one transmission during a handshake.
+Buffer: A storage area in a computer's memory where data can be temporarily stored before it is transferred to or from another device.
+Local hosts: In computer networking, these are the devices that are connected to a local network or segment.
+Link layer protocol: A communication protocol used in computer networking that operates at the data link layer of the OSI model.
+Ethernet: A widely used communication protocol for wired networks.
+PPP: Point-to-Point Protocol, a data link layer protocol used to establish a direct connection between two devices.
+TCP/IP: Transmission Control Protocol/Internet Protocol, a communication protocol used for transmitting data across networks.

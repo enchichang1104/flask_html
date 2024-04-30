@@ -1,0 +1,22 @@
+Transport-Layer Service
+
+1. The transport layer is responsible for providing communication services between two processes on different host devices. 
+2. It is the fourth layer of the OSI model and sits on top of the network layer. 
+3. The main services provided by the transport layer are multiplexing and demultiplexing, reliable data transfer, and congestion control. 
+4. Multiplexing is the process of combining multiple data streams into a single stream for transmission. 
+5. Demultiplexing is the process of separating the received data back into its original streams. 
+6. This allows for multiple applications to communicate simultaneously over a single network connection. 
+7. The transport layer also provides error checking and retransmission of lost or corrupted data to ensure reliable data transfer. 
+8. Congestion control manages the flow of data to prevent network congestion and ensure efficient use of network resources. 
+9. The two main transport layer protocols are Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). 
+10. These protocols use port numbers to identify the different processes or applications on a host device. 
+11. TCP is connection-oriented, meaning a connection must be established between the two devices before data transfer can begin. 
+12. TCP uses a three-way handshake process to establish a connection and ensure reliable data transfer. 
+13. This involves sending and receiving special segments between the two devices. 
+14. Once a connection is established, TCP provides a full-duplex service, allowing data to be sent and received simultaneously between the two devices. 
+15. TCP segments have a maximum segment size (MSS) that determines the amount of data that can be sent in one segment. 
+16. The MSS is typically determined by the maximum transmission unit (MTU) of the underlying link-layer protocol. 
+17. Ethernet and PPP, two common link-layer protocols, have an MTU of 1,500 bytes. 
+18. UDP, on the other hand, is connectionless and does not provide reliable data transfer or flow control. 
+19. It is commonly used for applications that can tolerate some data loss, such as streaming video or audio. 
+20. Multicasting, the transfer of data from one sender to many receivers, is not possible with TCP but can be achieved with UDP.
